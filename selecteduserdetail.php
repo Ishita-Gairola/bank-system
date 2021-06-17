@@ -9,7 +9,7 @@ if(isset($_POST['submit']))
 
     $sql = "SELECT * from users where id=$from";
     $query = mysqli_query($conn,$sql);
-    $sql1 = mysqli_fetch_array($query); // returns array or output of user from which the amount is to be transferred.
+    $sql1 = mysqli_fetch_array($query); // returns amount to be transferred
 
     $sql = "SELECT * from users where id=$to";
     $query = mysqli_query($conn,$sql);
@@ -21,7 +21,7 @@ if(isset($_POST['submit']))
     if (($amount)<0)
    {
         echo '<script type="text/javascript">';
-        echo ' alert("No negative values.")';  // showing an alert box.
+        echo ' alert("No negative values.")';  
         echo '</script>';
     }
 
@@ -32,7 +32,7 @@ if(isset($_POST['submit']))
     {
         
         echo '<script type="text/javascript">';
-        echo ' alert("Insufficient Balance")';  // showing an alert box.
+        echo ' alert("Insufficient Balance")';  
         echo '</script>';
     }
     

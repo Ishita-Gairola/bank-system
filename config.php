@@ -3,7 +3,7 @@
 	$conn = mysqli_connect('localhost','root','root','sparks_bank');
 
 	if(!$conn){
-		die("Could not connect to the database due to the following error - ".mysqli_connect_error());
+		die("Connection to database failed ".mysqli_connect_error());
 	}
 
 ?>

@@ -1,11 +1,10 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/navbar.css">
@@ -17,9 +16,8 @@
   <?php
   include 'navbar.php';
   ?>
+    <!-- heading -->
   <div class='container-fluid px-0'>
-
-      <!-- Introduction section -->
             <div class="row ">
             <div class="col-align-self-start ">
                 <img src="img/Corporate Professional LinkedIn Banner.png" class="img-fluid " >
@@ -33,10 +31,7 @@
 
               </div>
 </div>   
-             
-            
-
-      <!-- Activity section -->
+             <!-- our-services -->
       <div class="bg-image p-5 rounded mb-5 img-fluid w-100 " style="background-image: url('img/white-background-with-triangle-patterns_1017-18410.jpg');
                         
                          height:55vh;">
@@ -55,14 +50,13 @@
                     <a href="transfermoney.php"><br><button>Make a Transaction</button></a>
                   </div>
                   <div class="col-md act">
-                    <img src="img/purchase.png" class="img-fluid">
+                    <img src="img/transfer-history.png" class="img-fluid">
                     <br>
                     <a href="transactionhistory.php"><br><button>Transfer History</button></a>
                   </div>
             </div>
       </div>
 </div>
-  
 
       <footer class="text-center mt-5 py-2">
         <p>&copy 2021. By <b>Ishita Gairola</b></p>

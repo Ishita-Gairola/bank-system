@@ -1,4 +1,3 @@
-<!-- navbar --> 
       <nav class="navbar navbar-expand-md navbar-dark bg-dark-red" >
       <a class="navbar-brand mb-0-h1" href="index.php">TSF BANK</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
