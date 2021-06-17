@@ -27,7 +27,7 @@ input {
 	display: flex;
 	align-items: center;
 	padding: 10px 20px;
-	background: #7b8788;
+	background: #d9d9d9;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
 }
@@ -41,7 +41,6 @@ input {
 	height: 5px;
 	margin-left: 3px;
 	border-radius: 8px;
-	background: #d9d9d9;
 }
 
 .screen-body {
@@ -69,15 +68,15 @@ input {
 	padding: 10px 0;
 	background: none;
 	border: none;
-	border-bottom: 1px solid #4c4b4b;
-	color: #4c4b4b;
+	border-bottom: 1px solid;
+
 	font-size: 14px;
 	outline: none;
 	transition: border-color 0.2s;
 }
 
 .app-form-control::placeholder {
-	color: #666;
+	color: #d9d9d9;
 }
 
 .app-form-control:focus {

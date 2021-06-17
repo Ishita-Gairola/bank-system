@@ -36,8 +36,8 @@
         <br>      
 
   <div class="background" style="background-image: url('img/Corporate Professional LinkedIn Banner (1).png');">
-  <div class="container">
-    <div class="screen">
+  <div class="container bg-primary " >
+    <div class="screen bg-light">
 
       <div class="screen-body">
         
