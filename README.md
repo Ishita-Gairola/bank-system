@@ -3,8 +3,8 @@ The Sparks Foundation Internship Project : Basic Banking System
 This is a web application used to transfer money between multiple users. Here, 10 dummy users are in the database and a dummy user can also be created.  
 
 Tech stack used - 
-Front-end : HTML, CSS, Bootstrap & Javascript 
-Back-end : PHP 
+Front-end : HTML, CSS, Bootstrap & Javascript <br>
+Back-end : PHP <br>
 Database : MySQL   
 
 Database contains two Tables- Users Table & Transaction Table 
